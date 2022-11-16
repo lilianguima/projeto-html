@@ -3,8 +3,7 @@
     color: rgb(222, 113, 131);
     padding:  10px;
     margin: 10px;
-}
-
+    text-shadow: black}
 .texto{
     font-size: xx-smalls;
     font-style: italic;
@@ -18,7 +17,7 @@
     justify-content: left;
 }
 .photo2{
-    width:450px;
+    width:40%;
     justify-content: center;
 }
 .photo3{
@@ -40,8 +39,8 @@
 .container{
     display: flex;
 }
-@media(max-width: 500px){
-    .container { flex-direction: column};
+@media(max-width: 500){
+    .container { flex-direction: row};
 }
 
 .container > div{
@@ -62,6 +61,7 @@ hr{
 
 li { 
     display: inline;
+    
 }
 a {
     text-decoration: none;
